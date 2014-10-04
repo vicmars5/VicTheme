@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Aleo';
+    src: url('./Aleo/Aleo-Bold-webfont.eot');
+    src: url('./Aleo/Aleo-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./Aleo/Aleo-Bold-webfont.woff') format('woff'),
+         url('./Aleo/Aleo-Bold-webfont.ttf') format('truetype'),
+         url('./Aleo/Aleo-Bold-webfont.svg#aleobold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Aleo';
+    src: url('./Aleo/Aleo-BoldItalic-webfont.eot');
+    src: url('./Aleo/Aleo-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./Aleo/Aleo-BoldItalic-webfont.woff') format('woff'),
+         url('./Aleo/Aleo-BoldItalic-webfont.ttf') format('truetype'),
+         url('./Aleo/Aleo-BoldItalic-webfont.svg#aleobolditalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'Aleo';
+    src: url('./Aleo/Aleo-Light-webfont.eot');
+    src: url('./Aleo/Aleo-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./Aleo/Aleo-Light-webfont.woff') format('woff'),
+         url('./Aleo/Aleo-Light-webfont.ttf') format('truetype'),
+         url('./Aleo/Aleo-Light-webfont.svg#aleolight') format('svg');
+    font-weight: lighter;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Aleo';
+    src: url('./Aleo/Aleo-LightItalic-webfont.eot');
+    src: url('./Aleo/Aleo-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./Aleo/Aleo-LightItalic-webfont.woff') format('woff'),
+         url('./Aleo/Aleo-LightItalic-webfont.ttf') format('truetype'),
+         url('./Aleo/Aleo-LightItalic-webfont.svg#aleolightitalic') format('svg');
+    font-weight: lighter;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'Aleo';
+    src: url('./Aleo/Aleo-Regular-webfont.eot');
+    src: url('./Aleo/Aleo-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./Aleo/Aleo-Regular-webfont.woff') format('woff'),
+         url('./Aleo/Aleo-Regular-webfont.ttf') format('truetype'),
+         url('./Aleo/Aleo-Regular-webfont.svg#aleoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Aleo';
+    src: url('./Aleo/Aleo-Italic-webfont.eot');
+    src: url('./Aleo/Aleo-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./Aleo/Aleo-Italic-webfont.woff') format('woff'),
+         url('./Aleo/Aleo-Italic-webfont.ttf') format('truetype'),
+         url('./Aleo/Aleo-Italic-webfont.svg#aleoitalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}

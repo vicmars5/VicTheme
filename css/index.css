@@ -1,0 +1,176 @@
+
+article.post{
+	float: left;
+	margin-top: 1em;
+    background-color: white;
+	box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.1);
+	width: 100%;
+}
+article.post .detalle{
+	float: right;
+}
+article.post .portada{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    height: 320px;
+    margin: 0;
+    float: left;
+}
+article.post .vista{
+	text-align: center;
+	height: 100%;
+}
+article.post .vista .btn{
+	font-size: 1.2em;
+	float: left;
+	margin-left: -50%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-bottom: 2em;
+}
+article.post .vista .titulo h2{
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #CC3E62;
+}
+div.centrar{
+	padding-left: 50%;
+	width: 100%;
+	float: left;
+}
+div.centrar .c{
+	float: left;
+}
+header div.detalle{
+	float: right;
+	color: white;
+}
+header div.vista .titulo h2{
+	font-size: 1em;
+	padding: 0;
+	margin: 0;
+}
+header div.vista .desc{
+	padding: 10px;
+	width: 100%;
+}
+header .detalle{
+	color: rgb(200,200,200);
+}
+.paginacion{
+	text-align: center;
+}
+.titulo{
+	letter-spacing: 0px;
+}
+
+@media only screen and (min-width: 1200px){
+	header div.vista{
+		float: left;
+		max-width: 550px;
+		margin-top: 140px;
+		margin-left: 20px;
+		background-color: rgba(103,255,211,.5);
+		color: white;
+		box-shadow: 1px 1px 4px 0px rgba(103, 255, 211, 0.5);
+	}
+	header div.vista .titulo{
+		width: 555px;
+		font-size: 1.2em;
+		padding: 4px 10px;
+		background-color: rgb(255,112,100);
+		box-shadow: 2px 2px 5px 0px rgba(255, 112, 100, 0.75);
+	}
+	header div.leer{
+		font-size: 1.4em;
+		position: absolute;
+		top: 140px;
+		left: 60%;
+	}
+}
+@media only screen and (max-width: 1199px) and (min-width: 992px){
+	header div.vista{
+		float: left;
+		width: 60%;
+		margin-left: 20%;
+		margin-right: 20%;
+		background-color: rgba(103,255,211,.5);
+		color: white;
+		box-shadow: 1px 1px 4px 0px rgba(103, 255, 211, 0.5);
+	}
+	header div.vista .titulo{
+		font-size: 1.2em;
+		padding: 4px 10px;
+		background-color: rgb(255,112,100);
+		box-shadow: 2px 2px 5px 0px rgba(255, 112, 100, 0.75);
+	}
+	header div.leer{
+		font-size: 1.4em;
+		float: left;
+		margin-top: 1em;
+		width: 60%;
+		margin-left: 20%;
+		margin-right: 20%;
+		text-align: center;
+	}
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px){
+	header div.vista{
+		float: left;
+		width: 100%;
+		margin-left: 0%;
+		margin-right: 0%;
+		background-color: rgba(103,255,211,.5);
+		color: white;
+		box-shadow: 1px 1px 4px 0px rgba(103, 255, 211, 0.5);
+	}
+	header div.vista .titulo{
+		font-size: 1.2em;
+		padding: 4px 10px;
+		background-color: rgb(255,112,100);
+		box-shadow: 2px 2px 5px 0px rgba(255, 112, 100, 0.75);
+	}
+	header div.leer{
+		font-size: 1.4em;
+		float: left;
+		margin-top: 1em;
+		width: 60%;
+		margin-left: 20%;
+		margin-right: 20%;
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 767px){
+	header{
+		min-height: 400px;
+		height: auto;
+	}
+	header div.vista{
+		float: left;
+		width: 100%;
+		margin-left: 0%;
+		margin-right: 0%;
+		background-color: rgba(103,255,211,.5);
+		color: white;
+		box-shadow: 1px 1px 4px 0px rgba(103, 255, 211, 0.5);
+	}
+	header div.vista .titulo{
+		font-size: 1.2em;
+		padding: 4px 10px;
+		background-color: rgb(255,112,100);
+		box-shadow: 2px 2px 5px 0px rgba(255, 112, 100, 0.75);
+	}
+	header div.leer{
+		font-size: 1.4em;
+		float: left;
+		margin-top: 1em;
+		width: 100%;
+		margin-left: 0%;
+		margin-right: 0%;
+		text-align: center;
+	}
+}

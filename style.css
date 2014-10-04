@@ -1,0 +1,173 @@
+/*
+Theme Name: "Vic Blog"
+Theme URL: www.blogdelnegro.easy.es
+Description: Primera version del tema de Vic Blog. Creado el 4 de septiembre del 2014
+Version:1.0;
+Author: Víctor Agustín Díaz Méndez
+Author URI: www.blogdelnegro.easy.es
+*/
+
+
+/*Fuentes grecia 6691664488*/
+/*@import url(fonts/KlinicSlab.css);
+@import url(fonts/FiraSans.css);*/
+@import url(fonts/Aleo.css);
+body{
+	font-family: Aleo;
+	font-size: 20px;
+	letter-spacing: .5px;
+	color: rgb(60,60,60);
+}
+a{
+	color: #2FCC9F;
+}
+a:hover{
+	color: rgb(103,255,211);
+}
+h1{
+	display: none;
+}
+footer{
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	margin-top: 1em;
+	background: #2FCC9F;
+	text-align: center;
+	color: white;
+	font-weight: lighter;
+}
+figure.autor{
+	padding: 1em;
+}
+figure.autor figcaption{
+	padding: .6em 0 0 0;
+}
+figure.autor img{
+	width: 110px;
+	border-radius: 50%;
+}
+
+form{
+	color: rgb(128,128,128);
+	font-size: 18px;
+}
+form label{
+	font-size: 1em;
+	font-weight: bold;
+	display: block;
+}
+form input[type="text"], input[type="email"], input[type="password"], textarea{
+	font-size: 1em;
+	display: block;
+	width: 100%;
+	border: 1px solid rgb(230,230,230);
+}
+form .btn{
+	float: right;
+	margin-top: .5em;
+	padding-top: .2em;
+	padding-bottom: .2em;
+	font-size: 1.1em;
+	background: #FF7064;
+	font-weight: bold;
+}
+
+
+header{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    height: 400px;
+    float: left;
+    width: 100%;
+    padding: 0;
+}
+header a{
+	color: #CC3E62;
+}
+header a:hover{
+	color: #C91C4B;
+}
+header .mascara{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.2);
+}
+img.icon{
+	height: .8em;
+}
+nav{
+	width: 100%;
+	text-align: center;
+	background: #FF7064;
+	box-shadow: 0px 2px 4px rgba(0,0,0,.5);
+	margin-bottom: 1em;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+nav ul li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav a{
+	color: white;
+	padding: .2em;
+	font-weight: bold;
+	font-size: 1.5em;
+	transition: .3s background;
+}
+nav a:hover{
+	color: white;
+	text-decoration: none;
+	background: rgba(255,255,255,.1);
+	transition: .3s background;
+}
+span.glyphicon{
+	padding: 0 .5em 0 1em;
+}
+.btn, input[type="submit"]{
+	color: white;
+	width: auto;
+	padding: 0 1.2em;
+	border-radius: 5px;
+	font-family: Aleo;
+	border: none;
+}
+.btn a{
+	text-decoration: inherit;
+	color: inherit;
+}
+.btn.leer{
+	background: #FF7064;
+}
+.btn.leer img.icon{
+	margin-top: -.2em;
+}
+.detalle{
+	text-align: right;
+	font-family: Fira Sans;
+	font-size: 14px;
+	padding: 10px;
+	color: rgb(140,140,140);
+	width: 100%;
+}
+.detalle ul.post-categories{
+	display: inline;
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+.detalle ul.post-categories li{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.redes{
+	padding: 10px;
+	float: right;
+}

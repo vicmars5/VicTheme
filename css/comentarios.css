@@ -1,0 +1,84 @@
+li.comment{
+	list-style: none;
+}
+footer.comment-meta{
+	background: none;
+	color: rgb(60,60,60);
+	float: left;
+	text-align: left;
+	font-family: Aleo;
+}
+.comment-awaiting-moderation{
+	font-size: 18px;
+	float: left;
+	display: inline;
+	margin-left: 45px;
+	color: #CC3E62;
+}
+.commentmetadata a{
+	float: left;
+	display: inline;
+	font-size: 14px;
+	color: rgb(140,140,140);
+	margin-top: -5px;
+	margin-left: 45px;
+}
+.commentmetadata a:before{
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  content: "\e023";
+}
+.comments h2{
+	font-size: 28px;
+	color: #FF7064;
+	margin: 0;
+}
+.comment p{
+	font-size: 20px;
+	margin-left: 50px;
+}
+.comment-reply-title{
+	font-size: 24px;
+}
+.form-submit input[type=submit]{
+	float: right;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.fn{
+	font-size: 18px;
+	color: rgb(140,140,140);
+}
+.reply{
+	margin-left: 50px;
+	border-bottom: 2px solid rgb(153,153,153);
+	font-weight: bold;
+}
+.reply a{
+	font-size: 18px;
+
+}
+.reply a:after{
+	font-size: 1em;
+	font-family: 'Glyphicons Halflings';
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+  content: "\e080";
+}
+.comments input[type="submit"]{
+	background: #FF7064;
+	margin-left: -.5em;
+	font-size: 1.2em;
+}
+.says{
+	font-size: 18px;
+	color: rgb(140,140,140);
+}
+
+/*Importante: http://desdelacalleatuventana.blogspot.mx/2014/08/hacker-filtra-fotos-desnudas-de.html*/
