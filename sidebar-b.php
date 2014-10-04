@@ -6,6 +6,7 @@
 						<p>Joven, apasionado por las tecnologias y las artes.</p>
 						<p>Actualmente me encuentro estudiando la preparatoria, y escribo este blog como forma de expresión.</p>
 					</div>
+					<a href="http://eepurl.com/4WsED" class="btn">Suscribete <span class="glyphicon glyphicon-envelope"></span></a>
 				</div>
 				<?php if( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Sidebar')) :endif; ?>
 			</aside>

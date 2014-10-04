@@ -33,9 +33,25 @@ section{
 .bio{
 	text-align: center;
 }
+
 .bio figure.autor figcaption{
 	font-weight: bold;
 	color: #FF7064;
+}
+
+.bio a.btn{
+	font-weight: bold;
+	background: #2FCC9F;
+	padding: 6px 14px;
+	width: 100%;
+	float: left;
+	color: white;
+}
+
+.bio a.btn:hover{
+	background: #67FFD3;
+	text-decoration: none;
+	color: white;
 }
 
 .navigation-post{
